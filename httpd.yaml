@@ -1,5 +1,5 @@
 --- 
-- hosts: localhost 
+- hosts: ec2-34-244-99-21.eu-west-1.compute.amazonaws.com
   tasks: 
   - name: ensure apache is at the latest version 
     yum: name=httpd state=latest 
